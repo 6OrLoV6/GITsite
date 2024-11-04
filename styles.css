@@ -1,0 +1,112 @@
+/* Сброс стилей для всех элементов */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Общий стиль для контейнеров */
+.container {
+    width: 100vw;
+    padding: 20px;
+    background: #333;
+    color: #fff;
+    text-align: center;
+}
+
+/* Главный экран (начальная секция) */
+.home-section {
+    height: 100vh;
+    background-image: url('concert-background.jpg'); /* Фон - изображение концерта */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Стили для заголовка и текста события */
+h1 {
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.event-details {
+    font-size: 1.5em;
+    margin-top: 10px;
+}
+
+.site-launch {
+    font-size: 1.2em;
+    margin-top: 20px;
+    color: #ffcc00;
+}
+
+/* Кнопка для перехода к секции с подробной информацией */
+.details-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #007bff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Навигационное меню */
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    background-color: #444;
+    padding: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #ffcc00;
+}
+
+/* Стиль для секций с информацией */
+section {
+    margin: 40px 0;
+}
+
+h2 {
+    font-size: 2em;
+    color: #ffcc00;
+    margin-bottom: 10px;
+}
+
+/* Кнопка "Купить билеты" */
+.buy-tickets-button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #28a745;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.buy-tickets-button:hover {
+    background-color: #218838;
+}
+
+/* Стили для отзыва */
+blockquote {
+    font-style: italic;
+    color: #ddd;
+    margin: 10px auto;
+    max-width: 600px;
+}
+
+/* Отдельные стили для дополнительных секций */
+.details-section {
+    background-color: #333;
+}
